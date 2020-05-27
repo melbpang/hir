@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8" />
+        <title> 사용법 예제 </title>
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery.hir.js"></script>
+        <style type="text/css">
+            .hir {
+                background-color: purple;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <input id="keyword" type="search" />
+        <input id="button" type="button" value="찾기" />
+        <span id="content">동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세</span>
+        <script type="text/javascript">
+            $("#button").click(function () {
+                var keyword = $('#keyword').val();
+                $("#content").hir().hir(keyword);  // 강조된 구문 초기화 후, 재강조
+            });
+            $("#keyword").focus();
+        </script>
+    </body>
+</html>
