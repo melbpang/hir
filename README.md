@@ -1,7 +1,7 @@
 # HIR - The jQuery plug-in for highlighting text.
 'HIR'은 하이라이터의 약어이며, 단순하고 사용하기 쉬운 제이쿼리용 텍스트 강조 플러그-인입니다.
 
-###사용법
+**사용법**
 
 STEP 1. 설치 
 ````html
@@ -11,7 +11,7 @@ STEP 1. 설치
 
 STEP 2. 'hir' 클래스의 스타일을 선언
 ````css
-.her {
+.hir {
     // Your style here...
 }
 ````
