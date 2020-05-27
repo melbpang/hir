@@ -1,5 +1,5 @@
-# HIR - The jQuery plug-in for highlighting text.
-'HIR'은 하이라이터의 약어이며, 단순하고 사용하기 쉬운 제이쿼리용 텍스트 강조 플러그-인입니다.
+# Hir - The jQuery plug-in for highlighting text.
+'Hir'은 하이라이터의 약어이며, 단순하고 사용하기 쉬운 제이쿼리용 텍스트 강조 플러그-인입니다.
 
 **<사용법>**
 
